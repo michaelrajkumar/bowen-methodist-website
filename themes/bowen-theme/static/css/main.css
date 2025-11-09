@@ -1,0 +1,1036 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+
+/* ================================
+   HEADER (unchanged)
+================================ */
+.site-header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+.site-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #000000;
+    margin-left: 0.5rem;
+}
+
+/* Navigation Styles */
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    padding: 0.5rem 0;
+    position: relative;
+}
+
+.nav-link:hover {
+    color: #e8772e;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    min-width: 200px;
+    padding: 0.5rem 0;
+    border-radius: 4px;
+    display: none;
+    list-style: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: #000000;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f8f9fa;
+    color: #e8772e;
+}
+
+.mobile-menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #000000;
+}
+
+/* ================================
+   MAIN CONTENT STYLES (updated)
+================================ */
+#main-content {
+    min-height: 60vh;
+    padding: 3rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Container for page content */
+.page-container {
+    max-width: 900px;
+    width: 100%;
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* ================================
+   ENHANCED CONTENT STYLES
+================================ */
+
+/* Page sections */
+.page, .list {
+    max-width: 900px;
+    width: 100%;
+    background: #ffffff;
+    padding: 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    margin: 0 auto;
+    text-align: left;
+}
+
+.page-body {
+    margin-top: 1.5rem;
+}
+
+/* Enhanced Typography */
+.page h1, .list h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    background: linear-gradient(135deg, #e8772e, #c65f1e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    position: relative;
+}
+
+.page h1::after, .list h1::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(135deg, #e8772e, #c65f1e);
+    border-radius: 2px;
+}
+
+.page h2, .list h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin: 2rem 0 1rem 0;
+    padding-left: 1rem;
+    border-left: 4px solid #e8772e;
+    background: linear-gradient(90deg, rgba(232, 119, 46, 0.1), transparent);
+    padding: 0.5rem 1rem;
+    border-radius: 0 8px 8px 0;
+}
+
+.page h3, .list h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #34495e;
+    margin: 1.5rem 0 0.8rem 0;
+    position: relative;
+    padding-left: 1.2rem;
+}
+
+.page h3::before, .list h3::before {
+    content: '✦';
+    position: absolute;
+    left: 0;
+    color: #e8772e;
+    font-size: 1.2rem;
+}
+
+/* Enhanced Paragraphs */
+.page p, .list p, .page-body p {
+    font-size: 1.1rem;
+    color: #2c3e50;
+    margin-bottom: 1.2rem;
+    line-height: 1.8;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* Bible Verses and Scripture */
+.page p:has(a[href*="biblegateway"]), 
+.list p:has(a[href*="biblegateway"]),
+.page-body p:has(a[href*="biblegateway"]) {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 2px solid #e8772e;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 2rem 0;
+    box-shadow: 0 4px 15px rgba(232, 119, 46, 0.15);
+    position: relative;
+}
+
+.page p:has(a[href*="biblegateway"])::before,
+.list p:has(a[href*="biblegateway"])::before,
+.page-body p:has(a[href*="biblegateway"])::before {
+    content: '📖';
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #e8772e;
+    color: white;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 1rem;
+}
+
+/* Prayer Points */
+.page p:has(strong:contains("Let's Pray")),
+.list p:has(strong:contains("Let's Pray")),
+.page-body p:has(strong:contains("Let's Pray")) {
+    background: linear-gradient(135deg, #fff3cd, #ffeaa7);
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 2px solid #ffc107;
+    margin: 2rem 0;
+    text-align: center;
+    font-weight: 600;
+    color: #856404;
+}
+
+.page ul li:contains("•"),
+.list ul li:contains("•"),
+.page-body ul li:contains("•") {
+    background: linear-gradient(135deg, #e8f5e8, #d4edda);
+    margin: 0.8rem 0;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid #28a745;
+    position: relative;
+}
+
+.page ul li:contains("•")::before,
+.list ul li:contains("•")::before,
+.page-body ul li:contains("•")::before {
+    content: '🙏';
+    position: absolute;
+    left: -8px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #28a745;
+    color: white;
+    padding: 4px;
+    border-radius: 50%;
+    font-size: 0.8rem;
+}
+
+/* Enhanced Lists */
+.page ul, .list ul, .page-body ul {
+    margin: 1.5rem 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.page ul li, .list ul li, .page-body ul li {
+    margin-bottom: 1rem;
+    padding: 1rem 1.5rem;
+    background: linear-gradient(135deg, #f8f9fa, #ffffff);
+    border-radius: 8px;
+    border-left: 4px solid #e8772e;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.page ul li:hover, .list ul li:hover, .page-body ul li:hover {
+    transform: translateX(5px);
+    box-shadow: 0 4px 15px rgba(232, 119, 46, 0.2);
+}
+
+.page ul li::before, .list ul li::before, .page-body ul li::before {
+    content: '▶';
+    position: absolute;
+    left: 0.5rem;
+    color: #e8772e;
+    font-size: 0.8rem;
+}
+
+/* Numbered Lists */
+.page ol, .list ol, .page-body ol {
+    margin: 1.5rem 0;
+    padding-left: 2rem;
+    counter-reset: item;
+}
+
+.page ol li, .list ol li, .page-body ol li {
+    margin-bottom: 1rem;
+    padding: 0.8rem 1rem;
+    background: linear-gradient(135deg, #f1f3f4, #ffffff);
+    border-radius: 8px;
+    border-left: 4px solid #17a2b8;
+    position: relative;
+    counter-increment: item;
+}
+
+.page ol li::before, .list ol li::before, .page-body ol li::before {
+    content: counter(item);
+    position: absolute;
+    left: -1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #17a2b8;
+    color: white;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+/* Enhanced Links - Bible Gateway specific */
+.page a[href*="biblegateway"],
+.list a[href*="biblegateway"],
+.page-body a[href*="biblegateway"] {
+    color: #e8772e;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.page a[href*="biblegateway"]:hover,
+.list a[href*="biblegateway"]:hover,
+.page-body a[href*="biblegateway"]:hover {
+    background: rgba(232, 119, 46, 0.2);
+    transform: scale(1.05);
+}
+
+/* Enhanced Images */
+.page img, .list img, .page-body img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin: 2rem auto;
+    display: block;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+    border: 3px solid #ffffff;
+}
+
+.page img:hover, .list img:hover, .page-body img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* Blockquotes and Quotes */
+.page blockquote, .list blockquote, .page-body blockquote {
+    margin: 2rem 0;
+    padding: 2rem;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    border-left: 6px solid #e8772e;
+    border-radius: 12px;
+    font-style: italic;
+    color: #2c3e50;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.page blockquote::before, .list blockquote::before, .page-body blockquote::before {
+    content: '"';
+    position: absolute;
+    top: -10px;
+    left: 2rem;
+    background: #e8772e;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Special Content Sections */
+.page .highlight-box, .list .highlight-box, .page-body .highlight-box {
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 2px solid #2196f3;
+    margin: 2rem 0;
+    position: relative;
+}
+
+.page .highlight-box::before, .list .highlight-box::before, .page-body .highlight-box::before {
+    content: '💡';
+    position: absolute;
+    top: -15px;
+    left: 2rem;
+    background: #2196f3;
+    color: white;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+}
+
+/* Contact Information */
+.page .contact-info, .list .contact-info, .page-body .contact-info {
+    background: linear-gradient(135deg, #f3e5f5, #e1bee7);
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 2px solid #9c27b0;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.page .contact-info strong, .list .contact-info strong, .page-body .contact-info strong {
+    color: #7b1fa2;
+    font-size: 1.1rem;
+}
+
+/* Enhanced Buttons */
+.page .btn, .list .btn, .page-body .btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: linear-gradient(135deg, #e8772e, #c65f1e);
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    margin: 1rem 0.5rem;
+    box-shadow: 0 4px 15px rgba(232, 119, 46, 0.3);
+    border: none;
+    cursor: pointer;
+}
+
+.page .btn:hover, .list .btn:hover, .page-body .btn:hover {
+    background: linear-gradient(135deg, #c65f1e, #a54a1a);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(232, 119, 46, 0.4);
+}
+
+/* Special Styling for Daily Meditation Posts */
+.page:has(.categories:contains("Daily Meditation")),
+.list:has(.categories:contains("Daily Meditation")) {
+    background: linear-gradient(135deg, #ffffff, #f8f9fa);
+    border: 2px solid #e8772e;
+}
+
+.page:has(.categories:contains("Daily Meditation")) h1,
+.list:has(.categories:contains("Daily Meditation")) h1 {
+    color: #e8772e;
+}
+
+/* Enhanced Spacing and Layout */
+.page > *, .list > *, .page-body > * {
+    margin-bottom: 1.5rem;
+}
+
+.page > *:last-child, .list > *:last-child, .page-body > *:last-child {
+    margin-bottom: 0;
+}
+
+/* Special Content Enhancements */
+/* Beliefs and Doctrinal Content */
+.page:has(h2:contains("Methodist Beliefs")),
+.list:has(h2:contains("Methodist Beliefs")) {
+    background: linear-gradient(135deg, #ffffff, #f8f9fa);
+}
+
+.page:has(h2:contains("Methodist Beliefs")) h2,
+.list:has(h2:contains("Methodist Beliefs")) h2 {
+    background: linear-gradient(90deg, rgba(232, 119, 46, 0.15), transparent);
+    border-left: 6px solid #e8772e;
+}
+
+/* Ministries Content */
+.page:has(h2:contains("Sunday School")),
+.list:has(h2:contains("Sunday School")),
+.page:has(h2:contains("Youth Fellowship")),
+.list:has(h2:contains("Youth Fellowship")),
+.page:has(h2:contains("Women's Fellowship")),
+.list:has(h2:contains("Women's Fellowship")) {
+    background: linear-gradient(135deg, #ffffff, #f0f8ff);
+}
+
+/* Enhanced Paragraph Links */
+p > a {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #3ff4c2;
+    padding: 14px;
+    color: black;
+    font-size: 24px;
+    margin: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+p > a:hover {
+    background-color: #2dd4a8;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(63, 244, 194, 0.4);
+}
+
+/* Special Styling for Specific Content Types */
+/* Bible Verses with Enhanced Typography */
+.page p:has(a[href*="biblegateway"]):not(:has(strong)),
+.list p:has(a[href*="biblegateway"]):not(:has(strong)),
+.page-body p:has(a[href*="biblegateway"]):not(:has(strong)) {
+    font-family: 'Georgia', serif;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+}
+
+/* Enhanced List Items for Beliefs */
+.page ul li:has(strong),
+.list ul li:has(strong),
+.page-body ul li:has(strong) {
+    background: linear-gradient(135deg, #fff8e1, #ffecb3);
+    border-left: 4px solid #ff9800;
+    font-weight: 500;
+}
+
+.page ul li:has(strong) strong,
+.list ul li:has(strong) strong,
+.page-body ul li:has(strong) strong {
+    color: #e65100;
+    font-size: 1.1rem;
+}
+
+/* Contact Information Enhancement */
+.page p:contains("Contact"),
+.list p:contains("Contact"),
+.page-body p:contains("Contact") {
+    background: linear-gradient(135deg, #e8f5e8, #c8e6c9);
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 2px solid #4caf50;
+    margin: 2rem 0;
+    text-align: center;
+    font-weight: 600;
+    color: #2e7d32;
+}
+
+.page p:contains("Contact")::before,
+.list p:contains("Contact")::before,
+.page-body p:contains("Contact")::before {
+    content: '📞';
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #4caf50;
+    color: white;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 1rem;
+}
+
+/* Enhanced Description Text */
+.page p:first-of-type,
+.list p:first-of-type,
+.page-body p:first-of-type {
+    font-size: 1.2rem;
+    color: #34495e;
+    font-style: italic;
+    text-align: center;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid #dee2e6;
+    margin: 2rem 0;
+}
+
+/* Special Styling for Categories and Tags */
+.page .categories,
+.list .categories,
+.page-body .categories {
+    display: inline-block;
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+    color: #1976d2;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin: 1rem 0.5rem;
+    border: 2px solid #2196f3;
+}
+
+.page .tags,
+.list .tags,
+.page-body .tags {
+    display: inline-block;
+    background: linear-gradient(135deg, #f3e5f5, #e1bee7);
+    color: #7b1fa2;
+    padding: 0.4rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    margin: 0.5rem 0.3rem;
+    border: 1px solid #9c27b0;
+}
+
+
+/* ================================
+   FOOTER (unchanged)
+================================ */
+.site-footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 2rem 0;
+    margin-top: 3rem;
+}
+
+/* Special Advisory Row - Full Width */
+.footer-advisory-row {
+    max-width: 1200px;
+    margin: 0 auto 3rem auto;
+    padding: 0 1rem;
+}
+
+.footer-advisory-row .advisory-content {
+    background-color: #2a2a2a;
+    border-left: 4px solid #ffc107;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.footer-advisory-row .advisory-content h3 {
+    color: #ffc107;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.footer-advisory-row .advisory-content p {
+    margin: 0;
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.footer-section h3 {
+    color: #ffffff;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.advisory-content {
+    background-color: #2a2a2a;
+    border-left: 4px solid #ffc107;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.advisory-content p {
+    margin: 0;
+    color: #ffffff;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+.social-links a:hover {
+    background-color: #333333;
+}
+
+.bible-verse blockquote {
+    margin: 0;
+    padding: 1rem;
+    background-color: #1a1a1a;
+    border-left: 4px solid #17a2b8;
+    border-radius: 4px;
+}
+
+.bible-verse blockquote p {
+    margin: 0 0 0.5rem 0;
+    font-style: italic;
+    color: #ffffff;
+}
+
+.bible-verse blockquote footer {
+    text-align: right;
+    font-size: 0.9rem;
+    color: #cccccc;
+}
+
+.bible-verse a {
+    color: #17a2b8;
+    text-decoration: none;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contact-item a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    color: #17a2b8;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 1.5rem 0 0;
+    margin-top: 2rem;
+    border-top: 1px solid #333333;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: #cccccc;
+    font-size: 0.9rem;
+}
+
+/* ================================
+   RESPONSIVE DESIGN FIXES
+================================ */
+
+
+
+/* Tablets (≤1024px) */
+@media (max-width: 1024px) {
+    body, * {
+        font-size: 16px;
+    }
+}
+
+/* Mobile (≤768px) */
+@media (max-width: 768px) {
+    /* Prevent horizontal overflow */
+    html, body {
+        overflow-x: hidden;
+    }
+
+    p > a {
+        padding: 5px;
+        font-size: 12px;
+        margin: 5px;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .page, .list {
+        padding: 1.5rem;
+        margin: 1rem;
+    }
+
+    .page h1, .list h1 {
+        font-size: 2rem;
+    }
+
+    .page h2, .list h2 {
+        font-size: 1.5rem;
+    }
+
+    .page h3, .list h3 {
+        font-size: 1.2rem;
+    }
+
+    .page p, .list p, .page-body p {
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .page blockquote, .list blockquote, .page-body blockquote {
+        padding: 1.5rem;
+        margin: 1.5rem 0;
+    }
+    /* Navbar */
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        background-color: #ffffff;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 1rem 0;
+        margin: 0;
+    }
+    .nav-menu.active {
+        display: flex;
+    }
+    .nav-link {
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+        text-align: center;
+        width: 100%;
+    }
+    .mobile-menu-toggle {
+        display: block;
+    }
+
+    /* Content */
+    #main-content {
+        padding: 1.5rem 1rem;
+        font-size: 0.9rem;
+    }
+    .page-container {
+        width: 95%;
+        padding: 1rem;
+    }
+    .page-container h1 {
+        font-size: 1.6rem;
+    }
+    .page-container h2 {
+        font-size: 1.3rem;
+    }
+    .page-container h3 {
+        font-size: 1.1rem;
+    }
+    .page-container p {
+        font-size: 0.9rem;
+    }
+    .page-container .btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.85rem;
+    }
+
+    /* Images */
+    .page-container img,
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 1rem auto;
+    }
+
+    /* Footer */
+    .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 0 1rem;
+    }
+
+    .footer-advisory-row {
+        padding: 0 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .footer-advisory-row .advisory-content {
+        padding: 1rem;
+    }
+
+    .footer-advisory-row .advisory-content p {
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
+    .social-links {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+/* Small phones (≤480px) */
+@media (max-width: 480px) {
+    * {
+        font-size: 14px;
+    }
+    .site-title {
+        font-size: 0.95rem;
+    }
+    .page-container h1 {
+        font-size: 1.4rem;
+    }
+    .page-container h2 {
+        font-size: 1.1rem;
+    }
+    .page-container h3 {
+        font-size: 1rem;
+    }
+    .page-container p {
+        font-size: 0.85rem;
+    }
+    .page-container .btn {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.8rem;
+    }
+}
+
+
+/* Hamburger visibility & position */
+.mobile-menu-toggle {
+    display: none; /* hidden on desktop */
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 25px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 1100; /* above nav */
+}
+
+.mobile-menu-toggle span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #000;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+/* Show hamburger only on small devices */
+@media (max-width: 768px) {
+    .mobile-menu-toggle {
+        display: flex;
+    }
+
+    /* Hide nav menu by default on mobile */
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: #ffffff;
+        padding: 1rem 0;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        z-index: 1000;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    /* Mobile dropdown toggle */
+    .nav-item.dropdown .dropdown-menu {
+        display: none;
+        position: static;
+        box-shadow: none;
+        padding-left: 1rem;
+    }
+
+    .nav-item.dropdown.active .dropdown-menu {
+        display: block;
+    }
+}

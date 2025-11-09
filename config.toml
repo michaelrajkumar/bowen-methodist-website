@@ -1,0 +1,60 @@
+baseURL = "https://bowenmethodist.church"
+languageCode = "en-us"
+title = "Bowen Memorial Methodist Church"
+theme = "bowen-theme"
+
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableJS = false
+  disableJSON = false
+  disableSVG = false
+  disableXML = false
+  minifyOutput = true
+  [minify.tdewolff]
+    [minify.tdewolff.html]
+      keepWhitespace = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  description = "Bowen Memorial Methodist Church - Building Faith, Fostering Community, Inspiring Lives"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Welcome"
+    url = "/welcome/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Giving"
+    url = "/giving/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Ministries"
+    url = "/ministries/"
+    weight = 4
+
+  [[menu.main]]
+    name = "Volunteer"
+    url = "/volunteer/"
+    weight = 5
+
+  [[menu.main]]
+    name = "Media"
+    url = "/media/"
+    weight = 6
+
+    [[menu.main]]
+    name = "NextStep"
+    url = "/test-nextstep/"
+    weight = 7

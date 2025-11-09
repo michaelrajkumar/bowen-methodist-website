@@ -18,14 +18,6 @@ This is a modern, fast, and secure static website for Bowen Memorial Methodist C
 - 🔍 SEO-friendly structure
 - 📝 Easy content management through Markdown files
 
-## Technology Stack
-
-- **Static Site Generator:** [Hugo](https://gohugo.io/) v0.x
-- **Web Server:** Hiawatha v11.8 (production)
-- **SSL/TLS:** Let's Encrypt certificates with auto-renewal
-- **Security:** fail2ban, iptables firewall, security headers
-- **Deployment:** rsync over SSH
-
 ## Prerequisites
 
 To work with this site locally, you'll need:
@@ -155,22 +147,6 @@ rsync -avz --delete public/ user@server:/var/www/bowenmethodist.church/
 ```
 
 3. The server automatically serves the updated files over HTTPS
-
-### Server Configuration
-
-**Production Server:**
-- OS: Slackware Linux 15.0
-- Web Server: Hiawatha v11.8
-- SSL: Let's Encrypt (auto-renewal via certbot)
-- Security: fail2ban, iptables firewall, security headers
-- SSH: Custom port 2574
-
-**Security Features:**
-- Automatic SSL certificate renewal
-- HTTP to HTTPS redirect
-- Security headers (HSTS, CSP, X-Frame-Options, etc.)
-- IP-based banning for suspicious activity
-- Minimal attack surface
 
 ## Configuration
 

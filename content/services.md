@@ -9,14 +9,6 @@ layout: service-timings
 
 ### November 2025
 
-**Sunday, Nov 9**
-- **Reformation Sunday**
-  - Time: 10:30 am – 12:00 pm
-  - Location: Bowen Memorial Methodist Church
-  - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
-  - Description: Reformation Sunday
-
-
 **Sunday, Nov 16**
 - **Children Sunday Service**
   - Time: 10:30 am – 12:00 pm

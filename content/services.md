@@ -9,18 +9,47 @@ layout: service-timings
 
 ### November 2025
 
-**Sunday, Nov 23**
-- **Sunday Service**
-  - Time: 10:30 am – 12:00 pm 
-  - Location: Bowen Memorial Methodist Church
-  - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
-  - Description: Sunday Service
-
- 
 **Sunday, Nov 30**
 - **1st Sunday of Advent**
   - Time: 10:30 am – 12:00 pm
   - Location: Bowen Memorial Methodist Church
   - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
   - Description: 1st Sunday of Advent
- 
+
+### December 2025
+
+**Sunday, Dec 7**
+- **2nd Sunday of Advent**
+  - Time: 10:30 am – 12:00 pm
+  - Location: Bowen Memorial Methodist Church
+  - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
+  - Description: 2nd Sunday of Advent
+
+**Sunday, Dec 14**
+- **3rd Sunday of Advent**
+  - Time: 10:30 am – 12:00 pm
+  - Location: Bowen Memorial Methodist Church
+  - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
+  - Description: 3rd Sunday of Advent
+
+**Sunday, Dec 21**
+- **4th Sunday of Advent**
+  - Time: 10:30 am – 12:00 pm
+  - Location: Bowen Memorial Methodist Church
+  - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
+  - Description: 4th Sunday of Advent
+
+**Wednesday, Dec 25**
+- **Christmas Day**
+  - Time: 10:30 am – 12:00 pm
+  - Location: Bowen Memorial Methodist Church
+  - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
+  - Description: Christmas Day
+
+**Sunday, Dec 28**
+- **Testimonial Sunday**
+  - Time: 10:30 am – 12:00 pm
+  - Location: Bowen Memorial Methodist Church
+  - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
+  - Description: Testimonial Sunday
+

@@ -40,3 +40,9 @@ Temporary Items
 # Temporary files
 *.log
 *.tmp
+
+# GitHub credentials
+.github-token
+
+# Server credentials
+.server-config

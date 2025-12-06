@@ -7,15 +7,6 @@ layout: service-timings
 
 <!-- ## Service Timings -->
 
-### November 2025
-
-**Sunday, Nov 30**
-- **1st Sunday of Advent**
-  - Time: 10:30 am – 12:00 pm
-  - Location: Bowen Memorial Methodist Church
-  - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
-  - Description: 1st Sunday of Advent
-
 ### December 2025
 
 **Sunday, Dec 7**

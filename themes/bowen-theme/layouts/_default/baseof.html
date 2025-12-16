@@ -9,8 +9,9 @@
     {{ partial "head.html" . }}
 </head>
 <body>
+    {{ partial "announcement-banner.html" . }}
     {{ partial "header.html" . }}
-    
+
     <main id="main-content">
         {{ block "main" . }}{{ end }}
     </main>

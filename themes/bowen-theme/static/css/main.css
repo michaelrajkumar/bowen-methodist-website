@@ -1034,3 +1034,124 @@ p > a:hover {
         display: block;
     }
 }
+
+/* ================================
+   ANNOUNCEMENT BANNER
+================================ */
+.announcement-banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.95);
+    z-index: 9999;
+    transform: translateY(-100%);
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.announcement-banner.show {
+    transform: translateY(0);
+}
+
+.announcement-content {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+.announcement-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.announcement-image:hover {
+    transform: scale(1.02);
+}
+
+.close-banner {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(232, 119, 46, 0.9);
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 2rem;
+    line-height: 1;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.close-banner:hover {
+    background: rgba(198, 95, 30, 1);
+    transform: rotate(90deg) scale(1.1);
+}
+
+.close-banner span {
+    display: block;
+    font-size: 2rem;
+    line-height: 1;
+    margin-top: -4px;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+    .announcement-banner {
+        max-height: 95vh;
+    }
+
+    .announcement-content {
+        padding: 0.5rem;
+    }
+
+    .announcement-image {
+        border-radius: 4px;
+    }
+
+    .close-banner {
+        top: 5px;
+        right: 5px;
+        width: 35px;
+        height: 35px;
+        font-size: 1.5rem;
+    }
+
+    .close-banner span {
+        font-size: 1.5rem;
+    }
+}
+
+/* Very small phones */
+@media (max-width: 480px) {
+    .announcement-content {
+        padding: 0.25rem;
+    }
+
+    .close-banner {
+        width: 30px;
+        height: 30px;
+        font-size: 1.3rem;
+    }
+
+    .close-banner span {
+        font-size: 1.3rem;
+    }
+}

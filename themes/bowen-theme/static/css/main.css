@@ -1044,8 +1044,8 @@ p > a:hover {
 .list img[alt*="Carol Night"],
 .page-body img[alt*="Carol Night"] {
     /* Automatically calculate size based on viewport */
-    max-width: min(400px, 90vw);
-    max-height: 65vh;
+    max-width: min(350px, 85vw);
+    max-height: 50vh;
     width: auto;
     height: auto;
     object-fit: contain;
@@ -1070,8 +1070,8 @@ p > a:hover {
     .page img[alt*="Carol Night"],
     .list img[alt*="Carol Night"],
     .page-body img[alt*="Carol Night"] {
-        max-width: min(380px, 85vw);
-        max-height: 68vh;
+        max-width: min(330px, 85vw);
+        max-height: 55vh;
     }
 }
 
@@ -1080,8 +1080,8 @@ p > a:hover {
     .page img[alt*="Carol Night"],
     .list img[alt*="Carol Night"],
     .page-body img[alt*="Carol Night"] {
-        max-width: min(350px, 90vw);
-        max-height: 70vh;
+        max-width: min(300px, 90vw);
+        max-height: 60vh;
         margin: 1.5rem auto;
     }
 }
@@ -1091,8 +1091,8 @@ p > a:hover {
     .page img[alt*="Carol Night"],
     .list img[alt*="Carol Night"],
     .page-body img[alt*="Carol Night"] {
-        max-width: 95vw;
-        max-height: 75vh;
+        max-width: 90vw;
+        max-height: 70vh;
         margin: 1rem auto;
         border-width: 2px;
     }
@@ -1103,7 +1103,7 @@ p > a:hover {
     .page img[alt*="Carol Night"],
     .list img[alt*="Carol Night"],
     .page-body img[alt*="Carol Night"] {
-        max-width: min(450px, 85vw);
-        max-height: 70vh;
+        max-width: min(380px, 85vw);
+        max-height: 55vh;
     }
 }

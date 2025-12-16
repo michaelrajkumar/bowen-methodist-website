@@ -17,6 +17,7 @@ Members celebrating their birthdays and anniversaries in **December 2025**.
 - 4th December - Mr. Kingston Thomas
 - 8th December - Ms. Abigail Ajgarni
 - 9th December - Ms. Arlyen Massey
+- 16th December - Ms. Rhea Mathews
 - 27th December - Mrs. Greta Aarons
 
 ## Anniversaries

@@ -22,7 +22,7 @@ weight: 1
 
 **Carols, Fellowship and Food** - Join us for a wonderful evening of celebration on **December 19th, 2025 at 6:30 PM**!
 
-[**RSVP HERE**](https://bowenchristmas.my.canva.site/)
+<a href="https://bowenchristmas.my.canva.site/" target="_blank" rel="noopener noreferrer"><strong>RSVP HERE</strong></a>
 
 ---
 

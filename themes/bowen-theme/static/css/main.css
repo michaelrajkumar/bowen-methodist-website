@@ -1039,12 +1039,14 @@ p > a:hover {
    FEATURED EVENT POSTER STYLING
 ================================ */
 /* Target the Carol Night section specifically */
+/* Uses viewport units to automatically scale for all devices */
 .page img[alt*="Carol Night"],
 .list img[alt*="Carol Night"],
 .page-body img[alt*="Carol Night"] {
-    max-width: 450px;
-    max-height: 800px;
-    width: 100%;
+    /* Automatically calculate size based on viewport */
+    max-width: min(400px, 90vw);
+    max-height: 65vh;
+    width: auto;
     height: auto;
     object-fit: contain;
     margin: 2rem auto;
@@ -1063,23 +1065,45 @@ p > a:hover {
 }
 
 /* Responsive sizing for Carol Night poster */
+/* Tablets and medium screens */
+@media (max-width: 1024px) {
+    .page img[alt*="Carol Night"],
+    .list img[alt*="Carol Night"],
+    .page-body img[alt*="Carol Night"] {
+        max-width: min(380px, 85vw);
+        max-height: 68vh;
+    }
+}
+
+/* Mobile devices */
 @media (max-width: 768px) {
     .page img[alt*="Carol Night"],
     .list img[alt*="Carol Night"],
     .page-body img[alt*="Carol Night"] {
-        max-width: 100%;
-        max-height: none;
+        max-width: min(350px, 90vw);
+        max-height: 70vh;
         margin: 1.5rem auto;
     }
 }
 
+/* Small phones */
 @media (max-width: 480px) {
     .page img[alt*="Carol Night"],
     .list img[alt*="Carol Night"],
     .page-body img[alt*="Carol Night"] {
-        max-width: 100%;
-        max-height: none;
+        max-width: 95vw;
+        max-height: 75vh;
         margin: 1rem auto;
         border-width: 2px;
+    }
+}
+
+/* Large desktop screens */
+@media (min-width: 1440px) {
+    .page img[alt*="Carol Night"],
+    .list img[alt*="Carol Night"],
+    .page-body img[alt*="Carol Night"] {
+        max-width: min(450px, 85vw);
+        max-height: 70vh;
     }
 }

@@ -1039,12 +1039,12 @@ p > a:hover {
    FEATURED EVENT POSTER STYLING
 ================================ */
 /* Target the Carol Night section specifically */
-/* Image is pre-resized to 1080x1920, so we can use simpler sizing */
+/* Combined image is 864x768, make it larger on desktop/laptop */
 .page img[alt*="Carol Night"],
 .list img[alt*="Carol Night"],
 .page-body img[alt*="Carol Night"] {
-    max-width: 100%;
-    width: auto;
+    max-width: 700px;
+    width: 100%;
     height: auto;
     margin: 2rem auto;
     display: block;
@@ -1062,18 +1062,40 @@ p > a:hover {
 }
 
 /* Responsive sizing for Carol Night poster */
+/* Large desktop screens - even bigger */
+@media (min-width: 1440px) {
+    .page img[alt*="Carol Night"],
+    .list img[alt*="Carol Night"],
+    .page-body img[alt*="Carol Night"] {
+        max-width: 800px;
+    }
+}
+
+/* Tablets */
+@media (max-width: 1024px) {
+    .page img[alt*="Carol Night"],
+    .list img[alt*="Carol Night"],
+    .page-body img[alt*="Carol Night"] {
+        max-width: 600px;
+    }
+}
+
+/* Mobile devices */
 @media (max-width: 768px) {
     .page img[alt*="Carol Night"],
     .list img[alt*="Carol Night"],
     .page-body img[alt*="Carol Night"] {
+        max-width: 100%;
         margin: 1.5rem auto;
     }
 }
 
+/* Small phones */
 @media (max-width: 480px) {
     .page img[alt*="Carol Night"],
     .list img[alt*="Carol Night"],
     .page-body img[alt*="Carol Night"] {
+        max-width: 100%;
         margin: 1rem auto;
         border-width: 2px;
     }

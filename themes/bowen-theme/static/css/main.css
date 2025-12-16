@@ -1036,178 +1036,46 @@ p > a:hover {
 }
 
 /* ================================
-   ANNOUNCEMENT BANNER
+   FEATURED EVENT POSTER STYLING
 ================================ */
-.announcement-banner {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+/* Target the Carol Night section specifically */
+.page img[alt*="Carol Night"],
+.list img[alt*="Carol Night"],
+.page-body img[alt*="Carol Night"] {
+    max-width: 500px;
     width: 100%;
-    background: rgba(0, 0, 0, 0.95);
-    z-index: 9999;
-    transform: translateY(-100%);
-    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-    max-height: 95vh;
-    overflow-y: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem 0;
-}
-
-.announcement-banner.show {
-    transform: translateY(0);
-}
-
-.announcement-content {
-    position: relative;
-    width: 100%;
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 0.5rem;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.announcement-content a {
-    display: block;
-    width: 100%;
-    max-width: 100%;
-}
-
-.announcement-image {
-    width: 100%;
-    max-width: 350px;
-    max-height: 85vh;
     height: auto;
-    object-fit: contain;
-    border-radius: 8px;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
-    cursor: pointer;
-    transition: transform 0.3s ease;
-    margin: 0 auto;
+    margin: 2rem auto;
     display: block;
-}
-
-.announcement-image:hover {
-    transform: scale(1.02);
-}
-
-.close-banner {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: rgba(232, 119, 46, 0.9);
-    color: white;
-    border: none;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    font-size: 2rem;
-    line-height: 1;
-    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0 12px 40px rgba(232, 119, 46, 0.3);
+    border: 3px solid #e8772e;
     transition: all 0.3s ease;
-    z-index: 10000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
-.close-banner:hover {
-    background: rgba(198, 95, 30, 1);
-    transform: rotate(90deg) scale(1.1);
+.page img[alt*="Carol Night"]:hover,
+.list img[alt*="Carol Night"]:hover,
+.page-body img[alt*="Carol Night"]:hover {
+    transform: scale(1.03);
+    box-shadow: 0 16px 50px rgba(232, 119, 46, 0.4);
 }
 
-.close-banner span {
-    display: block;
-    font-size: 2rem;
-    line-height: 1;
-    margin-top: -4px;
-}
-
-/* Tablet and smaller desktops */
-@media (max-width: 1024px) {
-    .announcement-content {
-        max-width: 380px;
-    }
-
-    .announcement-image {
-        max-width: 330px;
-        max-height: 82vh;
-    }
-}
-
-/* Mobile-specific styles */
+/* Responsive sizing for Carol Night poster */
 @media (max-width: 768px) {
-    .announcement-banner {
-        max-height: 95vh;
-        padding: 0.5rem 0;
-    }
-
-    .announcement-content {
-        padding: 0.25rem;
-        max-width: 90%;
-    }
-
-    .announcement-image {
-        border-radius: 4px;
+    .page img[alt*="Carol Night"],
+    .list img[alt*="Carol Night"],
+    .page-body img[alt*="Carol Night"] {
         max-width: 100%;
-        max-height: 88vh;
-    }
-
-    .close-banner {
-        top: 5px;
-        right: 5px;
-        width: 35px;
-        height: 35px;
-        font-size: 1.5rem;
-    }
-
-    .close-banner span {
-        font-size: 1.5rem;
+        margin: 1.5rem auto;
     }
 }
 
-/* Very small phones */
 @media (max-width: 480px) {
-    .announcement-banner {
-        max-height: 98vh;
-        padding: 0.25rem 0;
-    }
-
-    .announcement-content {
-        padding: 0.15rem;
-        max-width: 95%;
-    }
-
-    .announcement-image {
-        max-height: 92vh;
-    }
-
-    .close-banner {
-        width: 30px;
-        height: 30px;
-        font-size: 1.3rem;
-    }
-
-    .close-banner span {
-        font-size: 1.3rem;
-    }
-}
-
-/* Large desktop screens */
-@media (min-width: 1440px) {
-    .announcement-content {
-        max-width: 450px;
-    }
-
-    .announcement-image {
-        max-width: 400px;
-        max-height: 80vh;
+    .page img[alt*="Carol Night"],
+    .list img[alt*="Carol Night"],
+    .page-body img[alt*="Carol Night"] {
+        max-width: 100%;
+        margin: 1rem auto;
+        border-width: 2px;
     }
 }

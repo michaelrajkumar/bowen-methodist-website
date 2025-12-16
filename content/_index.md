@@ -16,6 +16,14 @@ weight: 1
 
 ---
 
+## Join Us for Carol Night!
+
+![Bowen Carol Night 2025](/images/carol-night.webp "Bowen Carol Night - December 19th, 6:30 PM")
+
+**Carols, Fellowship and Food** - Join us for a wonderful evening of celebration on **December 19th, 2025 at 6:30 PM**!
+
+---
+
 ## Our Ministries
 
 ![Sunday School Ministry](/images/Bowen-Sunday-School.webp "Sunday School Activities")

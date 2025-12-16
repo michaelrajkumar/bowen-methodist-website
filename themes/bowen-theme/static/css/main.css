@@ -1049,8 +1049,11 @@ p > a:hover {
     transform: translateY(-100%);
     transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-    max-height: 90vh;
+    max-height: 85vh;
     overflow-y: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .announcement-banner.show {
@@ -1059,20 +1062,34 @@ p > a:hover {
 
 .announcement-content {
     position: relative;
-    max-width: 800px;
+    width: 100%;
+    max-width: 600px;
     margin: 0 auto;
     padding: 1rem;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.announcement-content a {
+    display: block;
+    width: 100%;
+    max-width: 100%;
 }
 
 .announcement-image {
     width: 100%;
-    max-width: 100%;
+    max-width: 500px;
+    max-height: 80vh;
     height: auto;
+    object-fit: contain;
     border-radius: 8px;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
     cursor: pointer;
     transition: transform 0.3s ease;
+    margin: 0 auto;
+    display: block;
 }
 
 .announcement-image:hover {
@@ -1112,18 +1129,33 @@ p > a:hover {
     margin-top: -4px;
 }
 
+/* Tablet and smaller desktops */
+@media (max-width: 1024px) {
+    .announcement-content {
+        max-width: 500px;
+    }
+
+    .announcement-image {
+        max-width: 450px;
+        max-height: 75vh;
+    }
+}
+
 /* Mobile-specific styles */
 @media (max-width: 768px) {
     .announcement-banner {
-        max-height: 95vh;
+        max-height: 90vh;
     }
 
     .announcement-content {
         padding: 0.5rem;
+        max-width: 95%;
     }
 
     .announcement-image {
         border-radius: 4px;
+        max-width: 100%;
+        max-height: 85vh;
     }
 
     .close-banner {
@@ -1141,8 +1173,17 @@ p > a:hover {
 
 /* Very small phones */
 @media (max-width: 480px) {
+    .announcement-banner {
+        max-height: 95vh;
+    }
+
     .announcement-content {
         padding: 0.25rem;
+        max-width: 98%;
+    }
+
+    .announcement-image {
+        max-height: 90vh;
     }
 
     .close-banner {
@@ -1153,5 +1194,17 @@ p > a:hover {
 
     .close-banner span {
         font-size: 1.3rem;
+    }
+}
+
+/* Large desktop screens */
+@media (min-width: 1440px) {
+    .announcement-content {
+        max-width: 650px;
+    }
+
+    .announcement-image {
+        max-width: 550px;
+        max-height: 75vh;
     }
 }

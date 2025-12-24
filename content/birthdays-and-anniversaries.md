@@ -18,6 +18,7 @@ Members celebrating their birthdays and anniversaries in **December 2025**.
 - 8th December - Ms. Abigail Ajgarni
 - 9th December - Ms. Arlyen Massey
 - 16th December - Ms. Rhea Mathews
+- 24th December - Mrs. Rupali Sandeep Badker
 - 27th December - Mrs. Greta Aarons
 
 ## Anniversaries

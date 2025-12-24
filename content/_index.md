@@ -16,6 +16,12 @@ weight: 1
 
 ---
 
+## Season's Greetings
+
+![Bowen Christmas 2024](/images/Bowen-Christmas.webp "Merry Christmas from Bowen Memorial Methodist Church")
+
+---
+
 ## Our Ministries
 
 ![Sunday School Ministry](/images/Bowen-Sunday-School.webp "Sunday School Activities")

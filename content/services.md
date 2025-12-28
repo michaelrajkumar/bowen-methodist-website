@@ -9,20 +9,6 @@ layout: service-timings
 
 ### December 2025
 
-**Sunday, Dec 21**
-- **4th Sunday of Advent**
-  - Time: 10:30 am – 12:00 pm
-  - Location: Bowen Memorial Methodist Church
-  - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
-  - Description: 4th Sunday of Advent
-
-**Wednesday, Dec 25**
-- **Christmas Day**
-  - Time: 10:30 am – 12:00 pm
-  - Location: Bowen Memorial Methodist Church
-  - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
-  - Description: Christmas Day
-
 **Sunday, Dec 28**
 - **Testimonial Sunday**
   - Time: 10:30 am – 12:00 pm

@@ -9,7 +9,7 @@ layout: service-timings
 
 ### January 2026
 
-**Wednesday, Jan 01**
+**Thursday, Jan 01**
 - **New Year's Celebration**
   - Time: 10:30 am
   - Location: Bowen Memorial Methodist Church

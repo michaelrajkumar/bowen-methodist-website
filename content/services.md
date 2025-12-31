@@ -7,12 +7,12 @@ layout: service-timings
 
 <!-- ## Service Timings -->
 
-### December 2025
+### January 2026
 
-**Sunday, Dec 28**
-- **Testimonial Sunday**
-  - Time: 10:30 am – 12:00 pm
+**Wednesday, Jan 01**
+- **New Year's Celebration**
+  - Time: 10:30 am
   - Location: Bowen Memorial Methodist Church
-  - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
-  - Description: Testimonial Sunday
+  - Address: 1, Tulloch Road, Colaba, Mumbai 400001
+  - Description: Holy Communion Service followed by Lunch Fellowship at the Morris Hall. Join us for our New Year's service as we welcome in 2026!
 

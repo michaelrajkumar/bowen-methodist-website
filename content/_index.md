@@ -16,9 +16,7 @@ weight: 1
 
 ---
 
-## Season's Greetings
-
-![Bowen Christmas 2024](/images/Bowen-Christmas.webp "Merry Christmas from Bowen Memorial Methodist Church")
+![New Year 2025](/images/e728038d-5124-4a18-a1aa-355315649dde.webp "New Year 2025")
 
 ---
 

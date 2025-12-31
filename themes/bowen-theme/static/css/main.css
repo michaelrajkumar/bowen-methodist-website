@@ -1036,12 +1036,12 @@ p > a:hover {
 }
 
 /* ================================
-   CHRISTMAS IMAGE STYLING
+   NEW YEAR IMAGE STYLING
 ================================ */
-/* Target the Bowen Christmas image specifically */
-.page img[alt*="Bowen Christmas"],
-.list img[alt*="Bowen Christmas"],
-.page-body img[alt*="Bowen Christmas"] {
+/* Target the New Year 2025 image specifically */
+.page img[alt*="New Year"],
+.list img[alt*="New Year"],
+.page-body img[alt*="New Year"] {
     max-width: 500px;
     width: 100%;
     height: auto;
@@ -1053,37 +1053,37 @@ p > a:hover {
     transition: all 0.3s ease;
 }
 
-.page img[alt*="Bowen Christmas"]:hover,
-.list img[alt*="Bowen Christmas"]:hover,
-.page-body img[alt*="Bowen Christmas"]:hover {
+.page img[alt*="New Year"]:hover,
+.list img[alt*="New Year"]:hover,
+.page-body img[alt*="New Year"]:hover {
     transform: scale(1.03);
     box-shadow: 0 16px 50px rgba(232, 119, 46, 0.4);
 }
 
-/* Responsive sizing for Christmas image */
+/* Responsive sizing for New Year image */
 /* Large desktop screens */
 @media (min-width: 1440px) {
-    .page img[alt*="Bowen Christmas"],
-    .list img[alt*="Bowen Christmas"],
-    .page-body img[alt*="Bowen Christmas"] {
+    .page img[alt*="New Year"],
+    .list img[alt*="New Year"],
+    .page-body img[alt*="New Year"] {
         max-width: 600px;
     }
 }
 
 /* Tablets */
 @media (max-width: 1024px) {
-    .page img[alt*="Bowen Christmas"],
-    .list img[alt*="Bowen Christmas"],
-    .page-body img[alt*="Bowen Christmas"] {
+    .page img[alt*="New Year"],
+    .list img[alt*="New Year"],
+    .page-body img[alt*="New Year"] {
         max-width: 450px;
     }
 }
 
 /* Mobile devices */
 @media (max-width: 768px) {
-    .page img[alt*="Bowen Christmas"],
-    .list img[alt*="Bowen Christmas"],
-    .page-body img[alt*="Bowen Christmas"] {
+    .page img[alt*="New Year"],
+    .list img[alt*="New Year"],
+    .page-body img[alt*="New Year"] {
         max-width: 100%;
         margin: 1.5rem auto;
     }
@@ -1091,9 +1091,9 @@ p > a:hover {
 
 /* Small phones */
 @media (max-width: 480px) {
-    .page img[alt*="Bowen Christmas"],
-    .list img[alt*="Bowen Christmas"],
-    .page-body img[alt*="Bowen Christmas"] {
+    .page img[alt*="New Year"],
+    .list img[alt*="New Year"],
+    .page-body img[alt*="New Year"] {
         max-width: 100%;
         margin: 1rem auto;
         border-width: 2px;

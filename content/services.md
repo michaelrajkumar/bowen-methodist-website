@@ -13,6 +13,6 @@ layout: service-timings
 - **New Year's Celebration**
   - Time: 10:30 am
   - Location: Bowen Memorial Methodist Church
-  - Address: 1, Tulloch Road, Colaba, Mumbai 400001
+  - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
   - Description: Holy Communion Service followed by Lunch Fellowship at the Morris Hall. Join us for our New Year's service as we welcome in 2026!
 

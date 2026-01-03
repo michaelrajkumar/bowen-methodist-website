@@ -16,10 +16,6 @@ weight: 1
 
 ---
 
-![New Year 2025](/images/e728038d-5124-4a18-a1aa-355315649dde.webp "New Year 2025")
-
----
-
 ## Our Ministries
 
 ![Sunday School Ministry](/images/Bowen-Sunday-School.webp "Sunday School Activities")
@@ -58,7 +54,7 @@ weight: 1
 
 ### Watch Our Live Service
 
-{{< youtube rQ0cZXoLOUI >}}
+{{< youtube Whl87_GUud0 >}}
 
 **For older videos, see our [YouTube channel](https://www.youtube.com/@bowenchurch).**
 

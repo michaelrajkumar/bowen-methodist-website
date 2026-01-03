@@ -9,10 +9,10 @@ layout: service-timings
 
 ### January 2026
 
-**Thursday, Jan 01**
-- **New Year's Celebration**
+**Sunday, Jan 04**
+- **45th Anniversary of the Methodist Church of India**
   - Time: 10:30 am
   - Location: Bowen Memorial Methodist Church
   - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
-  - Description: Holy Communion Service followed by Lunch Fellowship at the Morris Hall. Join us for our New Year's service as we welcome in 2026!
+  - Description: Join us as we celebrate the 45th Anniversary of the Methodist Church of India with a special service of thanksgiving and worship.
 

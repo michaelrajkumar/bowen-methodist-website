@@ -9,10 +9,6 @@ layout: service-timings
 
 ### January 2026
 
-**Tuesday, Jan 07**
-- **M.C.I. Day (Methodist Church in India)**
-  - Description: No service scheduled. A day for prayer observing the founding of the Methodist Church in India.
-
 **Saturday, Jan 11**
 - **W.S.C.S. Sunday**
   - Time: 10:30 am

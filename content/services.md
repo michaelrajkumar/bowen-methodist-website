@@ -9,13 +9,6 @@ layout: service-timings
 
 ### January 2026
 
-**Saturday, Jan 11**
-- **W.S.C.S. Sunday**
-  - Time: 10:30 am
-  - Location: Bowen Memorial Methodist Church
-  - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
-  - Description: Join us for the Women's Society of Christian Service Sunday.
-
 **Saturday, Jan 18**
 - **Methodist Youth Fellowship Sunday**
   - Time: 10:30 am

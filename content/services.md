@@ -9,15 +9,8 @@ layout: service-timings
 
 ### January 2026
 
-**Saturday, Jan 18**
-- **Methodist Youth Fellowship Sunday**
-  - Time: 10:30 am
-  - Location: Bowen Memorial Methodist Church
-  - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
-  - Description: Join us as we celebrate Methodist Youth Fellowship Sunday.
-
 **Saturday, Jan 25**
-- **Matins Service**
+- **Republic Day Service**
   - Time: 10:30 am
   - Location: Bowen Memorial Methodist Church
   - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India

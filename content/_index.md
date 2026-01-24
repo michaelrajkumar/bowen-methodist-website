@@ -54,7 +54,7 @@ weight: 1
 
 ### Watch Our Live Service
 
-{{< youtube Q4mXRNF3h9Y >}}
+{{< youtube CfZUWr28aXQ >}}
 
 **For older videos, see our [YouTube channel](https://www.youtube.com/@bowenchurch).**
 

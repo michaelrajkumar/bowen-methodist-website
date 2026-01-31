@@ -7,16 +7,40 @@ layout: service-timings
 
 <!-- ## Service Timings -->
 
-### January 2026
+### February 2026
 
-**Saturday, Jan 25**
-- **Republic Day Service**
+**Sunday, Feb 1**
+- **Leprosy Sunday / Holy Communion**
+  - Time: 10:30 am
+  - Location: Bowen Memorial Methodist Church
+  - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
+  - Description: Join us for Leprosy Sunday with Holy Communion.
+
+**Sunday, Feb 8**
+- **139th Church Anniversary**
+  - Time: 10:30 am
+  - Location: Bowen Memorial Methodist Church
+  - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
+  - Description: Join us as we celebrate 139 years of Bowen Memorial Methodist Church.
+
+**Sunday, Feb 15**
+- **Matins Service**
   - Time: 10:30 am
   - Location: Bowen Memorial Methodist Church
   - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
   - Description: Join us for our morning worship service.
 
-**Sunday, Jan 26**
-- **Republic Day**
-  - Description: No service scheduled. A day for prayer observing India's Republic Day.
+**Wednesday, Feb 18**
+- **Ash Wednesday**
+  - Time: 10:30 am
+  - Location: Bowen Memorial Methodist Church
+  - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
+  - Description: Join us as we mark the beginning of Lent with Ash Wednesday service.
+
+**Sunday, Feb 22**
+- **Matins Service**
+  - Time: 10:30 am
+  - Location: Bowen Memorial Methodist Church
+  - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
+  - Description: Join us for our morning worship service.
 

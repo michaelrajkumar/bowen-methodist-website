@@ -9,13 +9,6 @@ layout: service-timings
 
 ### February 2026
 
-**Sunday, Feb 1**
-- **Leprosy Sunday / Holy Communion**
-  - Time: 10:30 am
-  - Location: Bowen Memorial Methodist Church
-  - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
-  - Description: Join us for Leprosy Sunday with Holy Communion.
-
 **Sunday, Feb 8**
 - **138th Church Anniversary**
   - Time: 10:30 am

@@ -17,11 +17,11 @@ layout: service-timings
   - Description: Join us for Leprosy Sunday with Holy Communion.
 
 **Sunday, Feb 8**
-- **139th Church Anniversary**
+- **138th Church Anniversary**
   - Time: 10:30 am
   - Location: Bowen Memorial Methodist Church
   - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
-  - Description: Join us as we celebrate 139 years of Bowen Memorial Methodist Church.
+  - Description: Theme - Celebrating God's Grace (Ephesians 2:8-9). Join us as we celebrate 138 years of Bowen Memorial Methodist Church.
 
 **Sunday, Feb 15**
 - **Matins Service**

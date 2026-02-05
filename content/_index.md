@@ -12,7 +12,21 @@ weight: 1
 
 ## Welcome to Bowen Memorial Methodist Church
 
-**137 Years and Counting!**
+**138 Years and Counting!**
+
+---
+
+## 138th Church Anniversary
+
+![138th Church Anniversary](/images/Bowen-138-anniv.jpeg "138th Anniversary - Celebrating God's Grace")
+
+**Theme: Celebrating God's Grace (Ephesians 2:8-9)**
+
+Join us as we thank God for another year of His faithfulness.
+
+- **Date:** Sunday, 8th February 2026
+- **Time:** 10:30 am
+- **Location:** 1, Tulloch Rd, Apollo Bandar, Behind Taj Mahal Palace Hotel, Colaba, Mumbai - 400001
 
 ---
 

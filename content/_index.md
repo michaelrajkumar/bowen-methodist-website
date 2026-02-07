@@ -68,7 +68,7 @@ Join us as we thank God for another year of His faithfulness.
 
 ### Watch Our Live Service
 
-{{< youtube T81L_5It34I >}}
+{{< youtube 5GFrhx7TZrY >}}
 
 **For older videos, see our [YouTube channel](https://www.youtube.com/@bowenchurch).**
 

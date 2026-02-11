@@ -9,13 +9,6 @@ layout: service-timings
 
 ### February 2026
 
-**Sunday, Feb 8**
-- **138th Church Anniversary**
-  - Time: 10:30 am
-  - Location: Bowen Memorial Methodist Church
-  - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
-  - Description: Theme - Celebrating God's Grace (Ephesians 2:8-9). Join us as we celebrate 138 years of Bowen Memorial Methodist Church.
-
 **Sunday, Feb 15**
 - **Matins Service**
   - Time: 10:30 am

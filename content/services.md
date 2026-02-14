@@ -14,7 +14,7 @@ layout: service-timings
   - Time: 10:30 am
   - Location: Bowen Memorial Methodist Church
   - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
-  - Description: Join us for our morning worship service.
+  - Description: Service for the Council of Relief and Rehabilitation ministry of the Methodist Church in India.
 
 **Wednesday, Feb 18**
 - **Ash Wednesday**

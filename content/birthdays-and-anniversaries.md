@@ -20,5 +20,6 @@ Members celebrating their birthdays and anniversaries in **February 2026**.
 ## Anniversaries
 
 - 10th February - Cmdre E D Chauhan & Mrs Pearl Chauhan
+- 14th February - Mr. Gopi & Mrs. Ambika
 
 May God bless everyone.

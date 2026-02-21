@@ -12,23 +12,6 @@ weight: 1
 
 ## Welcome to Bowen Memorial Methodist Church
 
----
-
-## Ash Wednesday Service - Tomorrow!
-
-**Join us for Ash Wednesday service as we mark the beginning of Lent.**
-
-**When:** Wednesday, February 18, 2026
-**Time:** 7:00 PM
-**Where:** Bowen Memorial Methodist Church
-**Address:** WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai
-
-All are welcome to attend this sacred service.
-
-[View all Service Timings](/services/)
-
----
-
 ## Our Ministries
 
 ![Sunday School Ministry](/images/Bowen-Sunday-School.webp "Sunday School Activities")
@@ -67,7 +50,7 @@ All are welcome to attend this sacred service.
 
 ### Watch Our Live Service
 
-{{< youtube z0IMLbD8JzU >}}
+{{< youtube c2fWxgvFy9U >}}
 
 **For older videos, see our [YouTube channel](https://www.youtube.com/@bowenchurch).**
 

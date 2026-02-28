@@ -7,12 +7,35 @@ layout: service-timings
 
 <!-- ## Service Timings -->
 
-### February 2026
+### March 2026
 
-**Sunday, Feb 22**
+**Sunday, 1st March**
+- **Holy Communion Service**
+  - Time: 10:30 am
+  - Location: Bowen Memorial Methodist Church
+  - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
+
+**Sunday, 8th March**
+- **World Day of Prayer**
+  - Time: 10:30 am
+  - Location: Bowen Memorial Methodist Church
+  - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
+
+**Sunday, 15th March**
 - **Matins Service**
   - Time: 10:30 am
   - Location: Bowen Memorial Methodist Church
   - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
-  - Description: First Sunday of Lent
+
+**Sunday, 22nd March**
+- **Matins Service**
+  - Time: 10:30 am
+  - Location: Bowen Memorial Methodist Church
+  - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
+
+**Sunday, 29th March**
+- **Palm Sunday**
+  - Time: 10:30 am
+  - Location: Bowen Memorial Methodist Church
+  - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
 

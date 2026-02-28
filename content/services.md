@@ -10,7 +10,7 @@ layout: service-timings
 ### March 2026
 
 **Sunday, 1st March**
-- **Holy Communion Service**
+- **Holy Communion Service - Second Sunday of Lent**
   - Time: 10:30 am
   - Location: Bowen Memorial Methodist Church
   - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India

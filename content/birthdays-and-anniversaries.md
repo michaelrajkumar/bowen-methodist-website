@@ -22,6 +22,6 @@ Members celebrating their birthdays and anniversaries in **March 2026**.
 
 ## Anniversaries
 
-There are no anniversaries for March 2026.
+(No anniversaries for March 2026)
 
 May God bless everyone.

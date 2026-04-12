@@ -1,27 +1,31 @@
 ---
 title: "Birthdays and Anniversaries"
 date: 2023-06-17T03:32:42+05:30
-lastmod: 2025-08-02T20:49:38+05:30
-description: "Members celebrating their birthdays and anniversaries in March 2026."
+lastmod: 2026-04-01T00:00:00+05:30
+description: "Members celebrating their birthdays and anniversaries in April 2026."
 draft: false
 type: "page"
 layout: "birthdays-anniversaries"
 ---
 
-Members celebrating their birthdays and anniversaries in **March 2026**.
+Members celebrating their birthdays and anniversaries in **April 2026**.
 
 ![Birthday Cake](/images/birthday-cake-png-transparent-10.webp)
 
 ## Birthdays
 
-- 10th March - Ms. Mariya Gopi
-- 18th March - Ms. Elisha S Badkar
-- 20th March - Mrs. Kamala Mathews
-- 22nd March - Mr. Roldwinks Daniel
-- 26th March - Mr. Nikhil R Aarons
+- 1st April - Mr. Enoch Ajgrani
+- 4th April - Mrs. Kavita Singh
+- 11th April - Nidhi Gohil
+- 14th April - Mrs. Sagarika Pillai
+- 17th April - Aditya Badkar
+- 21st April - Elma Mathews
+- 26th April - Shavina Veigas
+- 26th April - Mr. Wilson Godimadi
+- 28th April - Mrs. Sapna Massey
 
 ## Anniversaries
 
-(No anniversaries for March 2026)
+- 28th April - Abigail and Deen
 
 May God bless everyone.

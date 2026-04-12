@@ -53,8 +53,3 @@ theme = "bowen-theme"
     name = "Media"
     url = "/media/"
     weight = 6
-
-    [[menu.main]]
-    name = "NextStep"
-    url = "/test-nextstep/"
-    weight = 7

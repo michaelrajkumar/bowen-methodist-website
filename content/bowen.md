@@ -16,18 +16,18 @@ Welcome to "The Bowen Herald," your online source for insightful articles, uplif
 
 **Read the Latest Issue:** Access the latest "The Bowen Herald" issue by clicking the following link. We invite you to dive into its pages and discover the wisdom, stories, and insights that our church community shares with you.
 
-### Jan – Mar 2026
+### Apr – Jun 2026
 
-**Read the** <a href="https://drive.google.com/file/d/1EkrYnhho1-GSEelPGe9heO6rVLZwh2KX/view?usp=sharing" target="_blank" rel="noopener noreferrer"><strong>January - March 2026 bulletin.</strong></a>
+**Read the** <a href="https://drive.google.com/file/d/1BlaperFBKDfK0_c98Yg5Mdb-dWFZ8bp_/view?usp=sharing" target="_blank" rel="noopener noreferrer"><strong>April - June 2026 bulletin.</strong></a>
 
 The archives for the previous months are as follows:
 
+- <a href="https://drive.google.com/file/d/1EkrYnhho1-GSEelPGe9heO6rVLZwh2KX/view?usp=sharing" target="_blank" rel="noopener noreferrer"><strong>January – March 2026</strong></a>
 - <a href="https://drive.google.com/file/d/12OpKfC2-w8Kx0bjtcukQ5Uq4Er5q7x0U/view?usp=drive_link" target="_blank" rel="noopener noreferrer"><strong>October – December 2025</strong></a>
 - <a href="https://drive.google.com/file/d/1GbSghOrJdzw6uvQW1vgqajA7QIq1Nlbd/view?usp=drive_link" target="_blank" rel="noopener noreferrer"><strong>July – September 2025</strong></a>
 - <a href="https://drive.google.com/file/d/1L2EctOPzvv3iSY_e-91GQ-gUkBjPf7w-/view?usp=drive_link" target="_blank" rel="noopener noreferrer"><strong>April – June 2025</strong></a>
 - <a href="https://drive.google.com/file/d/1NFzEm9C62nT9Qxd8h6oS0xjmlpqhIli4/view?usp=drive_link" target="_blank" rel="noopener noreferrer"><strong>January – March 2025</strong></a>
 - <a href="https://drive.google.com/file/d/1dF5UV8xqmwx0oMQ58jtJPxHU2I1MvkMG/view?usp=sharing" target="_blank" rel="noopener noreferrer"><strong>October 2024</strong></a>
-- <a href="https://drive.google.com/file/d/1hlcXZ1Q2mLJo3vFjcbHya9ROjPZwAK3j/view?usp=drive_link" target="_blank" rel="noopener noreferrer"><strong>August 2024</strong></a>
 
 **Thank you for being a part of Bowen Church's journey. We look forward to sharing the transformative power of faith and community through "The Bowen Herald."**
 

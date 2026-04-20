@@ -14,12 +14,12 @@ Members celebrating their birthdays and anniversaries in **April 2026**.
 
 ## Birthdays
 
-- 1st April - Mr. Enoch Ajgrani
+- 1st April - Mr. Enoch Ajgarni
 - 4th April - Mrs. Kavita Singh
 - 11th April - Nidhi Gohil
-- 14th April - Mrs. Sagarika Pillai
+- 14th April - Mrs. Sagarika Pillay
 - 17th April - Aditya Badkar
-- 21st April - Elma Mathews
+- 21st April - Elma Matthews
 - 26th April - Shavina Veigas
 - 26th April - Mr. Wilson Godimadi
 - 28th April - Mrs. Sapna Massey

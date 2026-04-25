@@ -9,17 +9,10 @@ layout: service-timings
 
 ### April 2026
 
-**Sunday, Apr 19**
-- **Sunday Worship Service**
-  - Time: 10:30 am
-  - Location: Bowen Memorial Methodist Church
-  - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
-  - Description: Second Sunday After Resurrection
-
 **Sunday, Apr 26**
 - **Sunday Worship Service**
   - Time: 10:30 am
   - Location: Bowen Memorial Methodist Church
   - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
-  - Description: Regular Sunday Worship
+  - Description: Third Sunday After Resurrection
 

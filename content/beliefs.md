@@ -3,11 +3,7 @@ title: "Explore Methodist Beliefs and Values"
 date: 2023-06-16T22:46:43+00:00
 lastmod: 2025-03-05T11:11:00+00:00
 description: "The Methodist branch of the Protestant religion traces its roots back to 1739 when it developed in England as the result of a revival and reform movement begun by John Wesley and his brother Charles."
-breadcrumb: "Beliefs"
-menu:
-  main:
-    parent: "Welcome"
-    weight: 10
+draft: false
 ---
 
 ![Methodist Beliefs](/images/Methodist-Beliefs.webp)

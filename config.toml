@@ -31,48 +31,106 @@ enableRobotsTXT = true
     instagram = "https://instagram.com/bowenmemorialmethodistchurch"
     youtube = "https://www.youtube.com/@bowenchurch"
 
+# =============================================================================
+# NAVIGATION MENU
+# =============================================================================
+# Structure:
+#   Home
+#   About ▼ (Beliefs, Ministries, Membership)
+#   Services
+#   Connect ▼ (Volunteer, Youth Fellowship, Open Mic, Birthdays)
+#   Bowen Herald
+#   Give
+# =============================================================================
+
 [menu]
+  # --- TOP LEVEL ITEMS ---
+
   [[menu.main]]
+    identifier = "home"
     name = "Home"
     url = "/"
     weight = 1
 
   [[menu.main]]
-    name = "Beliefs"
-    url = "/beliefs/"
+    identifier = "about"
+    name = "About"
+    url = "#"
     weight = 2
 
   [[menu.main]]
-    name = "Ministries"
-    url = "/ministries/"
+    identifier = "services"
+    name = "Services"
+    url = "/services/"
     weight = 3
 
   [[menu.main]]
-    name = "Services"
-    url = "/services/"
+    identifier = "connect"
+    name = "Connect"
+    url = "#"
     weight = 4
 
   [[menu.main]]
-    name = "Giving"
-    url = "/giving/"
+    identifier = "herald"
+    name = "Bowen Herald"
+    url = "/bowen/"
     weight = 5
 
   [[menu.main]]
-    name = "Volunteer"
-    url = "/volunteer/"
+    identifier = "give"
+    name = "Give"
+    url = "/giving/"
     weight = 6
 
-  [[menu.main]]
-    name = "Birthdays"
-    url = "/birthdays-and-anniversaries/"
-    weight = 7
+  # --- ABOUT DROPDOWN ---
 
   [[menu.main]]
+    identifier = "beliefs"
+    name = "Beliefs"
+    url = "/beliefs/"
+    parent = "about"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "ministries"
+    name = "Ministries"
+    url = "/ministries/"
+    parent = "about"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "membership"
+    name = "Membership"
+    url = "/membership/"
+    parent = "about"
+    weight = 3
+
+  # --- CONNECT DROPDOWN ---
+
+  [[menu.main]]
+    identifier = "volunteer"
+    name = "Volunteer"
+    url = "/volunteer/"
+    parent = "connect"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "youth"
+    name = "Youth Fellowship"
+    url = "/myf/"
+    parent = "connect"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "openmic"
     name = "Open Mic"
     url = "/pbj/"
-    weight = 8
+    parent = "connect"
+    weight = 3
 
   [[menu.main]]
-    name = "Bowen Herald"
-    url = "/bowen/"
-    weight = 9
+    identifier = "birthdays"
+    name = "Birthdays"
+    url = "/birthdays-and-anniversaries/"
+    parent = "connect"
+    weight = 4

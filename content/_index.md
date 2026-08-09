@@ -4,8 +4,6 @@ date: 2023-06-01
 description: "A community that prays together, stays together. We are a church that seek to glorify our Lord Jesus in everything we do in our lives. Join us and be blessed."
 images:
   - /images/Logo_of_the_United_Methodist_Church.webp
-menu: "main"
-weight: 1 
 ---
 
 <!-- ![Bowen Memorial Methodist Church Logo](/images/logo.webp "Church Logo") -->

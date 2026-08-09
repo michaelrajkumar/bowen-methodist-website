@@ -3,58 +3,51 @@
     <!-- Logo and Site Title -->
     <div class="logo-container">
       <a href="{{ .Site.BaseURL }}" class="logo-link">
-        <img src="/images/logo.webp" alt="Bowen Memorial Methodist Church Logo" class="logo">
-        <span class="site-title">Bowen Memorial Methodist Church</span>
+        <img src="/images/logo.webp" alt="{{ .Site.Title }} Logo" class="logo">
+        <span class="site-title">{{ .Site.Title }}</span>
       </a>
     </div>
 
     <!-- Mobile Menu Button -->
-    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+    <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
       <span></span>
       <span></span>
       <span></span>
     </button>
 
-    <!-- Navigation Menu -->
-    <ul class="nav-menu">
-      <!-- Welcome Dropdown -->
-      <li class="nav-item dropdown">
-        <a href="#" class="nav-link">
-          Welcome <span class="dropdown-arrow">▼</span>
-        </a>
-        <ul class="dropdown-menu">
-          <li><a href="/beliefs/">Beliefs</a></li>
-          <li><a href="/ministries/">Ministries</a></li>
-          <li><a href="/membership/">Membership</a></li>
-          <li><a href="/services/">Service Timings</a></li>
-        </ul>
-      </li>
-
-      <!-- Open Mic -->
-      <li class="nav-item">
-        <a href="/pbj/" class="nav-link">Open Mic</a>
-      </li>
-
-      <!-- Bowen Herald -->
-      <li class="nav-item">
-        <a href="/bowen/" class="nav-link">Bowen Herald</a>
-      </li>
-
-      <!-- Connect Dropdown -->
-      <li class="nav-item dropdown">
-        <a href="#" class="nav-link">
-          Connect <span class="dropdown-arrow">▼</span>
-        </a>
-        <ul class="dropdown-menu">
-          <li><a href="/volunteer/">Volunteer</a></li>
-          <li><a href="/birthdays-and-anniversaries/">Birthdays and Anniversaries</a></li>
-        </ul>
-      </li>
-
-      <!-- Generosity in Action -->
-      <li class="nav-item">
-        <a href="/giving/" class="nav-link">Generosity in Action</a>
-      </li>
-    </ul>
+    <!-- Navigation Menu - Dynamically Generated from config.toml -->
+    <nav aria-label="Main navigation">
+      <ul class="nav-menu">
+        {{- $currentPage := . -}}
+        {{- range .Site.Menus.main -}}
+          {{- if not .HasChildren -}}
+            {{- if not .Parent -}}
+              <!-- Regular Menu Item (no children, no parent) -->
+              <li class="nav-item">
+                <a href="{{ .URL }}" class="nav-link"{{ if eq $currentPage.RelPermalink .URL }} aria-current="page"{{ end }}>
+                  {{ .Name }}
+                </a>
+              </li>
+            {{- end -}}
+          {{- else -}}
+            <!-- Dropdown Menu Item (has children) -->
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link" aria-haspopup="true" aria-expanded="false">
+                {{ .Name }} <span class="dropdown-arrow" aria-hidden="true">▼</span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                {{- range .Children -}}
+                  <li role="none">
+                    <a href="{{ .URL }}" role="menuitem"{{ if eq $currentPage.RelPermalink .URL }} aria-current="page"{{ end }}>
+                      {{ .Name }}
+                    </a>
+                  </li>
+                {{- end -}}
+              </ul>
+            </li>
+          {{- end -}}
+        {{- end -}}
+      </ul>
+    </nav>
   </div>
 </header>

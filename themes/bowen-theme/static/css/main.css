@@ -609,9 +609,9 @@ p > a:hover {
 }
 
 /* Enhanced Description Text */
-.page p:first-of-type,
-.list p:first-of-type,
-.page-body p:first-of-type {
+.page p:first-of-type:not(:has(strong)),
+.list p:first-of-type:not(:has(strong)),
+.page-body p:first-of-type:not(:has(strong)) {
     font-size: 1.2rem;
     color: #34495e;
     font-style: italic;

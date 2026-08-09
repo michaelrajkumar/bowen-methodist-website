@@ -7,12 +7,33 @@ layout: service-timings
 
 <!-- ## Service Timings -->
 
-### July 2026
+### August 2026
 
-**Sunday, July 26**
+**Sunday, August 9**
 - **Sunday Worship Service**
   - Time: 10:30 am
   - Location: Bowen Memorial Methodist Church
   - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
-  - Description: Methodist Men Sunday
+  - Description: Methodist Men's Sunday
+
+**Sunday, August 16**
+- **Sunday Worship Service**
+  - Time: 10:30 am
+  - Location: Bowen Memorial Methodist Church
+  - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
+  - Description: Sunday Worship
+
+**Sunday, August 23**
+- **Sunday Worship Service**
+  - Time: 10:30 am
+  - Location: Bowen Memorial Methodist Church
+  - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
+  - Description: Gideon's Sunday
+
+**Sunday, August 30**
+- **Sunday Worship Service**
+  - Time: 10:30 am
+  - Location: Bowen Memorial Methodist Church
+  - Address: WRFM+83R, Tulloch Rd, Apollo Bandar, Colaba, Mumbai, Maharashtra, India
+  - Description: Home Mission Sunday
 

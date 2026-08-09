@@ -1,8 +1,9 @@
 ---
 title: "Service Timings"
 date: 2025-08-23T22:21:41+05:30
+lastmod: 2026-08-09T00:00:00+05:30
+description: "Sunday worship service schedule at Bowen Memorial Methodist Church."
 draft: false
-layout: service-timings
 ---
 
 <!-- ## Service Timings -->

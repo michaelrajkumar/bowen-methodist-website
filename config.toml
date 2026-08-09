@@ -1,7 +1,8 @@
 baseURL = "https://bowenmethodist.church"
-languageCode = "en-us"
+defaultContentLanguage = "en"
 title = "Bowen Memorial Methodist Church"
 theme = "bowen-theme"
+enableRobotsTXT = true
 
 [minify]
   disableCSS = false
@@ -22,6 +23,13 @@ theme = "bowen-theme"
 
 [params]
   description = "Bowen Memorial Methodist Church - Building Faith, Fostering Community, Inspiring Lives"
+  author = "Bowen Memorial Methodist Church"
+  logo = "/images/logo.webp"
+
+  [params.social]
+    facebook = "https://www.facebook.com/bowenmchurch"
+    instagram = "https://instagram.com/bowenmemorialmethodistchurch"
+    youtube = "https://www.youtube.com/@bowenchurch"
 
 [menu]
   [[menu.main]]
@@ -30,26 +38,41 @@ theme = "bowen-theme"
     weight = 1
 
   [[menu.main]]
-    name = "Welcome"
-    url = "/welcome/"
+    name = "Beliefs"
+    url = "/beliefs/"
     weight = 2
-
-  [[menu.main]]
-    name = "Giving"
-    url = "/giving/"
-    weight = 3
 
   [[menu.main]]
     name = "Ministries"
     url = "/ministries/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Services"
+    url = "/services/"
     weight = 4
+
+  [[menu.main]]
+    name = "Giving"
+    url = "/giving/"
+    weight = 5
 
   [[menu.main]]
     name = "Volunteer"
     url = "/volunteer/"
-    weight = 5
+    weight = 6
 
   [[menu.main]]
-    name = "Media"
-    url = "/media/"
-    weight = 6
+    name = "Birthdays"
+    url = "/birthdays-and-anniversaries/"
+    weight = 7
+
+  [[menu.main]]
+    name = "Open Mic"
+    url = "/pbj/"
+    weight = 8
+
+  [[menu.main]]
+    name = "Bowen Herald"
+    url = "/bowen/"
+    weight = 9

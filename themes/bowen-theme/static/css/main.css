@@ -257,46 +257,6 @@ body {
     font-size: 1rem;
 }
 
-/* Prayer Points */
-.page p:has(strong:contains("Let's Pray")),
-.list p:has(strong:contains("Let's Pray")),
-.page-body p:has(strong:contains("Let's Pray")) {
-    background: linear-gradient(135deg, #fff3cd, #ffeaa7);
-    padding: 1.5rem;
-    border-radius: 12px;
-    border: 2px solid #ffc107;
-    margin: 2rem 0;
-    text-align: center;
-    font-weight: 600;
-    color: #856404;
-}
-
-.page ul li:contains("•"),
-.list ul li:contains("•"),
-.page-body ul li:contains("•") {
-    background: linear-gradient(135deg, #e8f5e8, #d4edda);
-    margin: 0.8rem 0;
-    padding: 1rem 1.5rem;
-    border-radius: 8px;
-    border-left: 4px solid #28a745;
-    position: relative;
-}
-
-.page ul li:contains("•")::before,
-.list ul li:contains("•")::before,
-.page-body ul li:contains("•")::before {
-    content: '🙏';
-    position: absolute;
-    left: -8px;
-    top: 50%;
-    transform: translateY(-50%);
-    background: #28a745;
-    color: white;
-    padding: 4px;
-    border-radius: 50%;
-    font-size: 0.8rem;
-}
-
 /* Enhanced Lists */
 .page ul, .list ul, .page-body ul {
     margin: 1.5rem 0;
@@ -577,35 +537,6 @@ p > a:hover {
 .page-body ul li:has(strong) strong {
     color: #e65100;
     font-size: 1.1rem;
-}
-
-/* Contact Information Enhancement */
-.page p:contains("Contact"),
-.list p:contains("Contact"),
-.page-body p:contains("Contact") {
-    background: linear-gradient(135deg, #e8f5e8, #c8e6c9);
-    padding: 1.5rem;
-    border-radius: 12px;
-    border: 2px solid #4caf50;
-    margin: 2rem 0;
-    text-align: center;
-    font-weight: 600;
-    color: #2e7d32;
-}
-
-.page p:contains("Contact")::before,
-.list p:contains("Contact")::before,
-.page-body p:contains("Contact")::before {
-    content: '📞';
-    position: absolute;
-    top: -12px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #4caf50;
-    color: white;
-    padding: 8px;
-    border-radius: 50%;
-    font-size: 1rem;
 }
 
 /* Enhanced Description Text */

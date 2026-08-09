@@ -4,8 +4,6 @@ date: 2023-06-17T03:32:42+05:30
 lastmod: 2026-08-01T00:00:00+05:30
 description: "Members celebrating their birthdays in August 2026."
 draft: false
-type: "page"
-layout: "birthdays-anniversaries"
 ---
 
 Members celebrating their birthdays in **August 2026**.

@@ -2,10 +2,8 @@
 title: "Generosity in Action"
 date: 2023-06-17T03:36:12+00:00
 lastmod: 2024-02-21T17:38:07+00:00
-draft: false
 description: "Honor the Lord with your wealth and with the firstfruits of all your produce. Bring the full tithe into the storehouse, that there may be food in God's house."
-type: "page"
-layout: "giving"  # You'll need to create this layout template
+draft: false
 ---
 
 **"Bring ye all the tithes into the storehouse, that there may be meat in mine house, and prove me now herewith, saith the LORD of hosts, if I will not open you the windows of heaven, and pour you out a blessing, that there shall not be room enough to receive it."** - [Malachi 3:10 (KJV)](https://www.biblegateway.com/passage/?search=Malachi+3%3A10&version=KJV)

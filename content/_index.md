@@ -48,7 +48,7 @@ images:
 
 ### Watch Our Live Service
 
-{{< youtube WQ48FwP82YE >}}
+{{< youtube OzE9iC27fGg >}}
 
 **For older videos, see our [YouTube channel](https://www.youtube.com/@bowenchurch).**
 

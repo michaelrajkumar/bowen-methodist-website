@@ -16,6 +16,10 @@ tags:
 draft: false
 ---
 
+<div style="background-color: #fff3cd; border: 2px solid #856404; border-radius: 8px; padding: 15px; margin: 20px 0;">
+<p style="margin: 0;"><strong style="color: #856404;">Disclaimer:</strong> You serve in any of these ministries out of your own free will only. No one is forcing or enticing you in any manner to participate.</p>
+</div>
+
 ## Sunday School
 
 ![Bowen Sunday School](/images/Bowen-Sunday-School.webp)

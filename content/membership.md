@@ -8,6 +8,10 @@ draft: false
 
 ![Membership Image](/images/Member.webp)
 
+<div style="background-color: #fff3cd; border: 2px solid #856404; border-radius: 8px; padding: 15px; margin: 20px 0;">
+<p style="margin: 0;"><strong style="color: #856404;">Disclaimer:</strong> Membership at Bowen Memorial Methodist Church is entirely voluntary. You become a member only out of your own free will. No one is forcing or enticing you in any manner to become a member.</p>
+</div>
+
 To become a member of Bowen Memorial Methodist Church, fill up a membership application form available at the church vestry. Our Pastorate Committee will review this form and on approval, you will be included in the membership list.
 
 ## Requirements

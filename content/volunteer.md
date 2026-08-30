@@ -8,6 +8,10 @@ draft: false
 
 ![Volunteer Opportunities](/images/Volunteer.webp)
 
+<div style="background-color: #fff3cd; border: 2px solid #856404; border-radius: 8px; padding: 15px; margin: 20px 0;">
+<p style="margin: 0;"><strong style="color: #856404;">Disclaimer:</strong> You volunteer out of your own free will only. No one is forcing or enticing you in any manner to volunteer.</p>
+</div>
+
 All congregation members are encouraged to volunteer and serve the church. The opportunities available for serving include:
 
 - Serving at the Altar

@@ -19,6 +19,10 @@ draft: false
 
 <!-- # PB&J Open Mic: Celebrate Creativity & Community 🎤 -->
 
+<div style="background-color: #fff3cd; border: 2px solid #856404; border-radius: 8px; padding: 15px; margin: 20px 0;">
+<p style="margin: 0;"><strong style="color: #856404;">Disclaimer:</strong> You participate in PB&J out of your own free will only. No one is forcing or enticing you in any manner to participate.</p>
+</div>
+
 [![Cover Image](/images/pbj(1).webp)](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__tYbxRVUQzBWV1ZJQ1VHVVlTRjExVFFNUkc0TUxBTS4u)
 
 Welcome to **PB&J (Praises Beyond Jam) Open Mic Night** at **Bowen Memorial Methodist Church**!  

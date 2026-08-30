@@ -6,6 +6,10 @@ description: "Honor the Lord with your wealth and with the firstfruits of all yo
 draft: false
 ---
 
+<div style="background-color: #fff3cd; border: 2px solid #856404; border-radius: 8px; padding: 15px; margin: 20px 0;">
+<p style="margin: 0;"><strong style="color: #856404;">Disclaimer:</strong> Any giving, tithes, or offerings are made entirely out of your own free will only. No one is forcing, enticing, or inducing you in any manner whatsoever to give. Your decision to give or not to give is completely voluntary and personal.</p>
+</div>
+
 **"Bring ye all the tithes into the storehouse, that there may be meat in mine house, and prove me now herewith, saith the LORD of hosts, if I will not open you the windows of heaven, and pour you out a blessing, that there shall not be room enough to receive it."** - [Malachi 3:10 (KJV)](https://www.biblegateway.com/passage/?search=Malachi+3%3A10&version=KJV)
 
 God calls us to honor Him with our finances through tithes and offerings. Tithing—giving the first tenth of our income—is not merely an obligation, but a joyful act of worship and obedience that acknowledges God as the source of all our blessings. When we give faithfully to the Lord's work, we participate in advancing His kingdom and supporting the ministry that transforms lives.

@@ -9,6 +9,10 @@ seo: true
 
 <!-- # Methodist Youth Fellowship -->
 
+<div style="background-color: #fff3cd; border: 2px solid #856404; border-radius: 8px; padding: 15px; margin: 20px 0;">
+<p style="margin: 0;"><strong style="color: #856404;">Disclaimer:</strong> You participate in MYF out of your own free will only. No one is forcing or enticing you in any manner to participate.</p>
+</div>
+
 Youth Fellowship helps our young adults discover the plans and purposes God has for their lives in an environment specifically designed for them.
 
 At Bowen Church, the MYF takes the lead in the Worship Ministry of the church. MYF, as a major initiative, hosts the Open Mic program every Friday.

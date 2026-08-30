@@ -967,6 +967,58 @@ p > a:hover {
 }
 
 /* ================================
+   VISITOR NOTICE BOX
+================================ */
+.visitor-notice {
+    background-color: #fff3cd !important;
+    border: 2px solid #856404 !important;
+    border-radius: 8px !important;
+    padding: 20px !important;
+    margin: 20px 0 !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+    text-align: left !important;
+}
+
+.visitor-notice h3 {
+    color: #856404 !important;
+    margin-top: 0 !important;
+    padding-left: 0 !important;
+    border-left: none !important;
+    background: none !important;
+}
+
+.visitor-notice h3::before,
+.page .visitor-notice h3::before,
+.list .visitor-notice h3::before,
+div.visitor-notice h3::before {
+    content: none !important;
+    content: "" !important;
+    display: none !important;
+    visibility: hidden !important;
+    width: 0 !important;
+    height: 0 !important;
+    position: absolute !important;
+    left: -9999px !important;
+}
+
+.visitor-notice p {
+    text-align: left !important;
+    background: none !important;
+    padding: 0 !important;
+    border: none !important;
+    margin: 0.8rem 0 !important;
+    font-style: normal !important;
+}
+
+.visitor-notice a {
+    background-color: #3ff4c2 !important;
+    padding: 8px 14px !important;
+    margin: 5px !important;
+    font-size: 1rem !important;
+}
+
+/* ================================
    NEW YEAR IMAGE STYLING
 ================================ */
 /* Target the New Year 2025 image specifically */
@@ -1029,4 +1081,13 @@ p > a:hover {
         margin: 1rem auto;
         border-width: 2px;
     }
+}
+
+/* ================================
+   VISITOR NOTICE - FINAL OVERRIDE
+   (must be at end to override all)
+================================ */
+.visitor-notice h3::before {
+    content: none !important;
+    display: none !important;
 }
